@@ -7,4 +7,13 @@ First you have the client, which is the mobile app and the server, which is your
 ```mermaid
 graph LR
     A[Client] -->|Request| B[Server]
+    B[Server] -->|JSON| A[Client]
 ```
+
+In the graph above, the client requests the server for some information, and the server responds with the information encoded in the JSON format.
+
+Now, let's be more specific and add a few details to this.
+
+Now say you have a mobile app written in React Native that has only two functions:
+- Login an existing user from the server's database
+- Register a new user and add them to the server's database
