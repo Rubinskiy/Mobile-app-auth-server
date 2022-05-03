@@ -5,6 +5,6 @@ Let's say you want to register a user to a database, have them logged in to thei
 First you have the client
 
 ```mermaid
-graph TD
+graph LR
     A[Client] -->|Request| B[Server]
 ```
