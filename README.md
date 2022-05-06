@@ -14,6 +14,10 @@ In the graph above, the client requests the server for some information, and the
 
 Now, let's be more specific and add a few details to this.
 
-Now say you have a mobile app written in React Native that has only two functions:
+Now say you have a mobile app written in React Native that only has two functions:
 - Login an existing user from the server's database
 - Register a new user and add them to the server's database
+
+And you also have the server, written in PHP 7, designed to respond to the two requests that a client can make. It interacts with a MySQL database to store and retrieve information.
+
+Great! But first, what should the structure of the MySQL database look like?
